@@ -2,6 +2,10 @@ Final thing now remaining in our logic is to update the `PUT` Item route, to sen
 
 In Terminal run the following command to add amqp dependency, that we will use communicating with rabbitMQ
 
+`npm install --save amqp-ts`
+
+then add this import in `item.controller.ts`
+
 `import * as Amqp from "amqp-ts";`
 
 Then add the following snippet to define the connection/Exchange/Queue then connect to it
