@@ -1,0 +1,78 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Workshop",
+		"_postman_id": "c1ed1cab-c834-767b-5a34-c756b5201c2b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save Item",
+			"request": {
+				"url": "http://localhost:8080/item",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\": \"workshop\",\n\t\"price\": 999,\n\t\"type\": \"Alten\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item",
+			"request": {
+				"url": "http://localhost:8080/item",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Item",
+			"request": {
+				"url": "http://localhost:8080/item/{{_id}}",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item By ID",
+			"request": {
+				"url": "http://localhost:8080/item/5e3e7c81e808f91c9cc30488",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Item",
+			"request": {
+				"url": "http://localhost:8080/item/{{_id}}",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
