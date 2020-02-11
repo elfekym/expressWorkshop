@@ -37,6 +37,6 @@ Update Item, first check item status, if proper it marks it as sold and send mes
 * RabbitMQ Helper Class to be added.
 * Postman  Runner and Tests for a full scenario test
 
-Created Specially for Alten End 2 End With TypeScript workshop.
+Created Specially for Alten End 2 End With TypeScript workshop
 
 Good Ref. [Synaptiklabs](https://synaptiklabs.com/posts/express-typescript-and-mongo/).
